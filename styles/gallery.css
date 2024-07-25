@@ -6,6 +6,13 @@ section.gallery {
 
   & header {
     text-align: center;
+
+    @media (max-width: 768px){
+      & h2 {
+        white-space: nowrap;
+        font-size: 1.5rem;
+      }
+    }
   }
 
   & header span {
@@ -28,7 +35,7 @@ section.gallery {
 
     @media (max-width: 768px) {
       display: flex;
-      flex-direction: column;
+      flex-direction: column;      
     }
   }
 
